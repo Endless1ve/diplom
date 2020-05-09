@@ -1,0 +1,14 @@
+.popup__image {
+    max-width: 80vw;
+    max-height: 80vh;
+    position: relative;
+    box-sizing: border-box;
+    padding: 34px 36px;
+    margin: 0 auto;
+}
+
+.popup__image-opening {
+    margin: 0 auto;
+    max-width: 80vw;
+    max-height: 80vh;
+}

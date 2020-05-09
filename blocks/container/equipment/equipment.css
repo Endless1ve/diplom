@@ -1,0 +1,11 @@
+@import url(__block/equipment__block.css);
+@import url(__button/equipment__button.css);
+@import url(__header/equipment__header.css);
+@import url(__logo/equipment__logo.css);
+
+.equipment{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}

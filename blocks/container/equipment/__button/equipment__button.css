@@ -1,0 +1,12 @@
+.equipment__button{
+    width: 327px;
+    height: 40px;
+    background: #563E9C;
+    border: 0;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}

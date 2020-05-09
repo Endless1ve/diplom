@@ -1,0 +1,51 @@
+@import url(__button/services__form__button.css);
+@import url(__input_type_email/services__form__input_type_email.css);
+@import url(__input_type_name/services__form__input_type_name.css);
+@import url(__input_type_phone/services__form__input_type_phone.css);
+
+.services__form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.ff{
+    display: flex;
+    align-self: center;
+    margin-left: 40px;
+}
+
+@media screen and (min-width : 768px) and (max-width : 1023px){
+    .ff{
+        flex-direction: column;
+    }
+
+    .form__input{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px){
+    .ff{
+        flex-direction: column;
+    }
+
+    .form__input{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 424px){
+    .ff{
+        flex-direction: column;
+    }
+
+    .form__input{
+        margin-bottom: 20px;
+    }
+}

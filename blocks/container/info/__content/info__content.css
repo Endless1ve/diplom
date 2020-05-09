@@ -1,0 +1,31 @@
+@import url(__block/content__block.css);
+
+.info__content{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+
+}
+
+@media screen and (min-width : 768px) and (max-width : 1023px){
+    .info__content{
+        grid-template-columns: 50% 50%;
+    }
+}
+
+
+@media screen and (min-width: 425px) and (max-width: 767px){
+    .info__content{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 424px){
+    .info__content{
+        display: flex;
+        flex-direction: column;
+    }
+}

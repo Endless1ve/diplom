@@ -1,0 +1,14 @@
+@import url(__content/block__content.css);
+@import url(__button/content__button.css);
+
+
+.content__block{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    border: 2px solid #D0D0D0;
+}
+
+

@@ -1,0 +1,58 @@
+@import url(__contact/header__contact.css);
+@import url(__logo/header__logo.css);
+@import url(__text/header__text.css);
+
+.header{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .header{
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    .header__logo{
+        margin-left: 20px;
+    }
+    .header__contact{
+        margin-right: 20px;
+    }
+
+    .header__text{
+        display: none;
+    }
+
+}
+
+
+@media screen and (min-width: 425px) and (max-width: 767px){
+    .header{
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+    
+    .header__text{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 424px){
+
+    .header__text{
+        display: none;
+    }
+
+    .header{
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+    .popup__button{
+        font-size: 24px;
+    }
+}

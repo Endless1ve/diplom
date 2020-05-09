@@ -1,0 +1,18 @@
+@import url(../blocks/header/header.css);
+@import url(../blocks/container/container.css);
+@import url(../blocks/container/line/line.css);
+@import url(../blocks/container/equipment/equipment.css);
+@import url(../blocks/container/equipment/equipment.css);
+@import url(../blocks/container/brands/brands.css);
+@import url(../blocks/container/services/services.css);
+@import url(../blocks/container/delivery/delivery.css);
+@import url(../blocks/container/contacts/contacts.css);
+@import url(../blocks/popup/popup.css);
+
+
+.all{
+    
+    max-width: 1024px;
+    margin: 0 auto;
+    
+}

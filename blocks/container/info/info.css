@@ -1,0 +1,7 @@
+@import url(__content/info__content.css);
+@import url(__header/info__header.css);
+
+.info{
+    width: 100%;
+    margin: 0 auto;
+}

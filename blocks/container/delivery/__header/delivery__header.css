@@ -1,0 +1,13 @@
+.delivery__header{
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+@media screen and (min-width: 425px) and (max-width: 767px){
+    .delivery__header{
+        font-size: 34px;
+}
+}

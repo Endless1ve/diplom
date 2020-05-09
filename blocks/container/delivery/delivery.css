@@ -1,0 +1,8 @@
+@import url(__header/delivery__header.css);
+@import url(__text/delivery__text.css);
+@import url(__info/delivery__info.css);
+
+.delivery{
+    width: 100%;
+    margin-top: 100px;
+}

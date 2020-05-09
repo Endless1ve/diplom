@@ -1,0 +1,60 @@
+@import url(__pic/delivery__info__pic.css);
+@import url(__form/delivery__form.css);
+@import url(__content/delivery__info__content.css);
+
+.delivery__info{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.delivery__info-1{
+    display: flex;
+    margin-top: 50px;
+    
+}
+
+@media screen and (min-width : 768px) and (max-width : 1023px){
+    .delivery__info__pic{
+        width: 392px;
+    }
+
+    .delivery__info-1{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .delivery__form{
+        margin: 0 auto;
+    }
+}
+
+
+
+@media screen and (min-width: 425px) and (max-width: 767px){
+    .delivery__info{
+        flex-direction: column;
+    }
+
+    .delivery__info-1{
+        flex-direction: column;
+    }
+    .delivery__form{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 424px){
+    .delivery__info{
+        flex-direction: column;
+    }
+
+    .delivery__info-1{
+        flex-direction: column;
+    }
+    .delivery__form{
+        margin: 0 auto;
+    }
+}
+
+

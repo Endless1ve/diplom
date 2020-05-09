@@ -1,0 +1,11 @@
+.header__text{
+    width: 404px;
+    font-size: 14px;
+    line-height: 15px;
+    margin: 0 auto;
+}
+
+
+.form__error{
+    color: red;
+}

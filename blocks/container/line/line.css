@@ -1,0 +1,11 @@
+.line{
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    width: 650px;
+    height: 2px;
+    background: #FFFFFF;
+    border: 1.5px solid #563E9C;
+    box-sizing: border-box;
+    background-color: #563E9C;
+}

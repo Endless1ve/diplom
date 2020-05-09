@@ -1,0 +1,10 @@
+@import url(__header/services__header.css);
+@import url(__block/services__block.css);
+@import url(__form/services__form.css);
+
+.services{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 100%;
+    
+}

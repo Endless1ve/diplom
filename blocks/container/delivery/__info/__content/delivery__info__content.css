@@ -1,0 +1,10 @@
+@import url(__image/delivery__info__content__image.css);
+@import url(__text/delivery__info__content__text.css);
+
+.delivery__info__content{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
+}

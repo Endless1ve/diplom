@@ -1,0 +1,33 @@
+@import url(__text/services__block__text.css);
+@import url(__image/services__block__image.css);
+
+.services__flex{
+    display: flex;
+    justify-content: space-around; 
+    margin-bottom: 50px;
+}
+
+.services__block{
+   display: flex;
+   flex-direction: column;
+
+}
+
+@media screen and (min-width : 768px) and (max-width : 1023px){
+    .services__flex{
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (min-width: 425px) and (max-width: 767px){
+    .services__flex{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 424px){
+    .services__flex{
+        flex-direction: column;
+    }
+}
